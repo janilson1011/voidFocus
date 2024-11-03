@@ -10,6 +10,10 @@ int leitura(){
     return n;
 }
 
+char leituraNome(char vetNome[30]){
+     scanf("%s", vetNome);
+};
+
 typedef struct dadosDoAluno dados;
 
 struct dadosDoAluno{
@@ -20,11 +24,17 @@ struct dadosDoAluno{
 
 int main(void){
     int nota, nota2;
-    
+    char apelido[30];
+ 
     nota  = leitura();
     nota2 = leitura();
+    leituraNome(apelido);
+    
 
+    printf("--------------------------------\n");
     printf("soma = %d\n", soma(nota, nota2));
+    printf("nome = %s\n", apelido);
+    printf("--------------------------------\n");
 
     return 0;
 } 
