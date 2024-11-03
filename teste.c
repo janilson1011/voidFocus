@@ -23,17 +23,16 @@ struct dadosDoAluno{
 };
 
 int main(void){
-    int nota, nota2;
-    char apelido[30];
+    dados aluno;
  
-    nota  = leitura();
-    nota2 = leitura();
-    leituraNome(apelido);
+    aluno.nota  = leitura();
+    aluno.nota2 = leitura();
+    leituraNome(aluno.nome);
     
 
     printf("--------------------------------\n");
-    printf("soma = %d\n", soma(nota, nota2));
-    printf("nome = %s\n", apelido);
+    printf("soma = %d\n", soma(aluno.nota,aluno.nota2));
+    printf("nome = %s\n", aluno.nome);
     printf("--------------------------------\n");
 
     return 0;
