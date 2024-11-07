@@ -30,10 +30,10 @@ int main(void){
     leituraNome(aluno.nome);
     
 
-    printf("--------------------------------\n");
+    printf("*--------------------------------\n");
     printf("soma = %d\n", soma(aluno.nota,aluno.nota2));
     printf("nome = %s\n", aluno.nome);
-    printf("--------------------------------\n");
+    printf("--------------------------------*\n");
 
     return 0;
 } 
