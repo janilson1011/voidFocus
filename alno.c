@@ -31,9 +31,9 @@ int main(void){
     aluno.turma = leitura();
     aluno.media = leituraNum(); 
 
-    printf("nome do aluno   => %s\n", aluno.nome);
-    printf("turma do aluno  => %c\n", aluno.turma);
-    printf("media do aluno  => %.2f\n", aluno.media);
+    printf("* nome do aluno   => %s\n", aluno.nome);
+    printf("  turma do aluno  => %c\n", aluno.turma);
+    printf("  media do aluno  => %.2f *\n", aluno.media);
 
     return 0;
 }
